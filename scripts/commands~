@@ -1,0 +1,41 @@
+move <x> <y>
+	Moves main player to x,y coords
+
+move_player <player> <x> <y>
+	Moves a specific player to x,y coords
+
+load_file <filename>
+	Loads an file and parses the commands in it.
+
+setinput <PLAYER> <INPUT_TYPE> <DATA> <FUNCTION>
+	Sets input for the player
+	Input types:
+		0: Keyboard. Value is key code.
+	
+	Functions:
+		0: Move right
+		1: Move Down
+		2: Move Left
+		3: Move Up
+		4: Jump
+		5: Use item
+		6: Special
+		7: Slow motion
+		8: Menu
+
+echo <TEXT HERE>
+	Echo'es the entire command, even if it's supposed to be hidden (mostly when it's loading commands from file)
+
+
+set_screen_bit <VALUE>
+	Sets the screen bitrate
+
+set_screen_scale <VALUE>
+	Sets the screen scaling (Integer)
+
+screen_refresh/screen_reload
+	Refreshes the screen, needed if you change the screen options.
+
+
+set_use_hd <0/1>
+	Turns usage of HD images when scaling on/off (You need to you screen_refresh to update)

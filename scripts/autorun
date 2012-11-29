@@ -1,0 +1,7 @@
+echo Loading autorun.
+load_file ./scripts/set_input
+load_file ./scripts/settings
+load_file ./scripts/random_file
+
+#You can use several commands on the same line with ';'
+#echo printing; echo print2; echo print3

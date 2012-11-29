@@ -1,0 +1,18 @@
+echo Loading input file.
+#Right -> right arrow and D
+setinput 0 0 275 0
+setinput 0 0 100 0
+
+#Down -> S
+setinput 0 0 274 1
+setinput 0 0 115 1
+
+#Left -> A
+setinput 0 0 276 2
+setinput 0 0 97 2
+
+#Up -> W
+setinput 0 0 273 3
+setinput 0 0 119 3
+
+echo Input loaded.

@@ -1,0 +1,2 @@
+set_screen_scale 1; screen_reload; wait 2000; set_screen_scale 2; screen_reload
+wait 2500; move -8 -8; wait 250; move 128 128; wait 250; move 0 0; wait 250; move 0 128; wait 250; move 128 0

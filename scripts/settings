@@ -1,0 +1,5 @@
+echo Loading settings file.
+set_screen_bit 32
+set_screen_scale 1
+set_use_hd 1
+echo Settings loaded
